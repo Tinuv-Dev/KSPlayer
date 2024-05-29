@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/tinuv-dev/FFmpegKit",
       "state" : {
-        "branch" : "main",
-        "revision" : "56b0cebf8326c387e85bfc290e89a1cda66abde7"
+        "branch" : "mini",
+        "revision" : "49e40cc71f71341c10c54e9bff5565ad7243bb42"
       }
     }
   ],
