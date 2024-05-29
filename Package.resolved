@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "ffmpegkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tinuv-dev/FFmpegKit",
+      "state" : {
+        "branch" : "main",
+        "revision" : "56b0cebf8326c387e85bfc290e89a1cda66abde7"
+      }
+    }
+  ],
+  "version" : 2
+}

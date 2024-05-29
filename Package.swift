@@ -65,6 +65,6 @@ if FileManager.default.fileExists(atPath: ffmpegKitPath + "/Package.swift") {
     ]
 } else {
     package.dependencies += [
-        .package(url: "https://github.com/tinuv-dev/FFmpegKit", .branch ("mini"),
+        .package(url: "https://github.com/tinuv-dev/FFmpegKit", branch: "main"),
     ]
 }
