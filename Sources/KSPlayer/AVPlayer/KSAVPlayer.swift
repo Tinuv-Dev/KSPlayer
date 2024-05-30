@@ -216,7 +216,7 @@ public class KSAVPlayer {
         urlAsset = AVURLAsset(url: url, options: options.avOptions)
         self.options = options
         if let customResourceLoader = self.options.customResourceLoader {
-            urlAsset. resourceLoader.setDelegate(customResourceLoader, queue: DispatchQueue (label: "customResourceLoader" ))
+            urlAsset.resourceLoader.setDelegate(customResourceLoader, queue: DispatchQueue (label: "customResourceLoader" ))
         }
         itemObservation = player.observe(\.currentItem) { [weak self] player, _ in
             guard let self else { return }
