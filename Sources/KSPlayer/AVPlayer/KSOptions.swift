@@ -88,7 +88,7 @@ open class KSOptions {
     public var canStartPictureInPictureAutomaticallyFromInline = KSOptions.canStartPictureInPictureAutomaticallyFromInline
     public var automaticWindowResize = true
     // Customer ResouceLoader
-    public var customResourceLoader:
+    public var customResourceLoader:AVAssetResourceLoaderDelegate?
     @Published
     public var videoInterlacingType: VideoInterlacingType?
     private var videoClockDelayCount = 0
